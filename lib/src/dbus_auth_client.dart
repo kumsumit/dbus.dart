@@ -130,7 +130,7 @@ class DBusAuthClient {
   void _authenticateExternal() {
     String authId;
     if (_uid != null) {
-      authId = _uid!;
+      authId = _uid;
     } else if (Platform.isLinux) {
       authId = getuid().toString();
     } else if (Platform.isWindows) {
