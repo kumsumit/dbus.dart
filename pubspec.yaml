@@ -13,6 +13,7 @@ environment:
 platforms:
   linux:
   windows:
+  macos:
 
 dependencies:
   args: ^2.0.0

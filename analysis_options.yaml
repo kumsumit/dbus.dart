@@ -6,4 +6,9 @@ linter:
     - prefer_single_quotes
     - sort_child_properties_last
     - unawaited_futures
-    - use_full_hex_values_for_flutter_colors
+    # Removed Flutter-specific rule. Added more Dart-recommended lints for stricter code quality.
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_final_locals
+    - unnecessary_this
+    - avoid_annotating_with_dynamic
